@@ -3,4 +3,3 @@ const newArray = arrayElements.reduce((total, value) => {
     return total.concat(value);
 }, []);
 console.log(newArray);
-console.log("Hola")
