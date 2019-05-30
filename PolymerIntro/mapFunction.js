@@ -156,7 +156,7 @@ const elements = [
         "nat": "NO"
     }
 ];
-const newElements = elements.map(function (objetos) {
+const newElements = elements.map((objetos) => {
     const fullName = [objetos.name.first, objetos.name.last].join(" ");
     const age = objetos.dob.age;
     const img = objetos.picture.large;
