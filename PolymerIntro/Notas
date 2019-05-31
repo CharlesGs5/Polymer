@@ -1,0 +1,28 @@
+DESTRUCTURACIÓN DE DATOS
+
+Spread Operator destructura los datos:
+
+a = ['1', '2', '3']
+b = [...a]
+//b = [1, 2, 3]
+
+slice(posición, numero de elementos que se quitará a partir de la posición 0,
+
+for ... in
+Iteración de llaves.
+
+for ... of
+Iteración de elementos.
+
+
+const array = ['a', 'b', 'c', 'd', 'e'];
+
+for(const key in array){
+    console.log(key);
+    //0, 1, 2, 3, 4
+}
+
+for(const key of array){
+    console.log(key);
+    //a, b, c, d, e
+}
